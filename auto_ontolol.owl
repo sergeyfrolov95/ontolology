@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#hasLayout -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#hasLayout">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#hasTransmission -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#hasTransmission">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#manufacturedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#manufacturedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#generation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#generation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#hp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#hp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#layout -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#layout">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#manufacturer -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#manufacturer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#model -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#model">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#pid -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#pid">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#restyle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#restyle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#transmission -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#transmission">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#Car -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#Car"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#Layout -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#Layout"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#Manufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#Manufacturer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#Transmission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#Transmission"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
