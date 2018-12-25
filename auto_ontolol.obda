@@ -33,5 +33,13 @@ source		select id, name from layout
 mappingId	urn:MAPID-1f3433fd7c1d46bc88af6caee5ff9d50
 target		:Car-{id} :manufacturedBy :Manufacturer-{manufacturer_id} . 
 source		select id, manufacturer_id from car
+
+mappingId	urn:MAPID-b71e6760c53340f496737273c50034dc
+target		:Car-{id} :hasLayout :Layout-{layout_id} . 
+source		select id, layout_id from car
+
+mappingId	urn:MAPID-6df726fb2afc4d9ab31d3ce75761a0d5
+target		:Car-{id} :hasTransmission :Transmission-{transmission_id} . 
+source		select id, transmission_id from car
 ]]
 

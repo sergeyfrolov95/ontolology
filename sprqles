@@ -14,3 +14,53 @@ select ?car ?model where {
    ?car :model "Celica" .
    ?car :model ?model .
 }
+
+
+
+
+
+PREFIX : <http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?c where { 
+    ?l rdf:type :Layout .
+    ?l :name "fr" . 
+    ?c rdf:type :Car .
+    ?c :hasLayout ?l .
+}
+
+
+
+
+
+
+PREFIX : <http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?c where { 
+    ?l rdf:type :Layout .
+    ?l :name "fr" . 
+    ?c rdf:type :Car .
+    ?c :hasLayout ?l .
+    ?m rdf:type :Manufacturer .
+    ?m :name "Toyota" .
+    ?c :manufacturedBy ?m .
+}
+
+
+
+
+
+
+
+
+PREFIX : <http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?c where { 
+    ?t rdf:type :Transmission .
+    ?t :name "manual" . 
+    ?c rdf:type :Car .
+    ?c :hasTransmission ?t .
+}
+
