@@ -72,9 +72,23 @@
     
 
 
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#id"/>
+    
+
+
     <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#layout -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#layout">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#location">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     
@@ -96,9 +110,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#pid -->
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#name -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#pid">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#name">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     
@@ -115,6 +129,14 @@
     <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#transmission -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#transmission">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#year">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     

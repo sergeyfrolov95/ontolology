@@ -1,0 +1,33 @@
+[PrefixDeclaration]
+:		http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xml:		http://www.w3.org/XML/1998/namespace
+xsd:		http://www.w3.org/2001/XMLSchema#
+rdfs:		http://www.w3.org/2000/01/rdf-schema#
+
+[SourceDeclaration]
+sourceUri	datasource1
+connectionUrl	jdbc:postgresql://localhost/auto1
+username	seleza
+password	1234
+driverClass	org.postgresql.Driver
+
+[MappingDeclaration] @collection [[
+mappingId	urn:MAPID-335575637f9543c5933bc70eff117162g
+target		:Car-{id} a :Car ; :model {model} ; :generation {generaion} ; :restyle {resyle} ; :hp {hp} . 
+source		select id, model, generation, restyle, hp from car
+
+mappingId	urn:MAPID-5d1f3e119a954857ba45508c5707d684
+target		:Manufacturer-{id} a :Manufacturer ; :name {name} ; :year {year} ; :location {location} . 
+source		select id, name, year, location from manufacturer
+
+mappingId	urn:MAPID-e0994db565f244b0a107189fcf7c6917
+target		:Transmission-{id} a :Transmission ; :name {name} . 
+source		select id, name from transmission
+
+mappingId	urn:MAPID-82ba51bf76894daf923114188c3fd985
+target		:Layout-{id} a :Layout ; :name {name} . 
+source		select id, name from layout
+]]
+

@@ -1,0 +1,16 @@
+PREFIX : <http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?x where {?x rdf:type :Car}
+
+
+
+
+PREFIX : <http://www.semanticweb.org/sergey/ontologies/2018/10/untitled-ontology-11#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?car ?model where { 
+   ?car rdf:type :Car .
+   ?car :model "Celica" .
+   ?car :model ?model .
+}
